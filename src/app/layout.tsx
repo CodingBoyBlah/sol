@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
+import { AuroraBackground } from "@/components/ui/aurora-background";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -9,6 +10,11 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -24,10 +30,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      <body 
+        className={`${inter.variable} antialiased`}
       >
-        {children}
+        <AuroraBackground className="w-screen h-full">
+          {children}
+        </AuroraBackground>
       </body>
     </html>
   );
