@@ -44,13 +44,13 @@ export default function Home() {
       </div>
 
       {/* Video Section: scrolls below ok */}
-      <div className="w-full lg:w-[90%] scale-130 max-w-4xl mb-40 px-4 rounded-xl overflow-hidden">
+      <div className=" flex justify-center items-center w-full scale-130 max-w-4xl mb-40 px-4 rounded-xl overflow-hidden">
         <video
           autoPlay
           muted
           loop
           playsInline
-          className="w-full h-auto rounded-md shadow-xl"
+          className="w-[80%] h-auto lg:w-full md:w-full lg:h-auto md:h-auto rounded-md shadow-xl"
         >
 
           <source src="/showcase-fixed.mp4" type="video/mp4" />
