@@ -33,7 +33,7 @@ export default function Home() {
           <Link href="https://bsky.app/profile/solbrowse.bsky.social">
             <BlueSkyLogo />
           </Link>
-          <Link href="hhttps://www.reddit.com/r/solbrowse/">
+          <Link href="https://www.reddit.com/r/solbrowse/">
             <RedditLogo />
           </Link>
           <Link href="https://discord.com/invite/4qQzJCbagq">
