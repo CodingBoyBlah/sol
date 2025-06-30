@@ -22,7 +22,7 @@ export default function Home() {
         </Button>
       </div>
 
-      {/* Video Section: scrolls below */}
+      {/* Video Section: scrolls below ok */}
       <div className="w-full  scale-150 max-w-4xl mb-40 px-4 rounded-xl overflow-hidden">
         <video
           autoPlay
@@ -31,6 +31,7 @@ export default function Home() {
           playsInline
           className="w-full h-auto rounded-md shadow-xl"
         >
+
           <source src="/showcase-fixed.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
