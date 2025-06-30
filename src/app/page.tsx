@@ -1,5 +1,4 @@
 import Image from "next/image";
-import icon from "./icon-128.png";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { GitHubLogo, XLogo, BlueSkyLogo, RedditLogo, DiscordLogo } from "@/components/ui/link-logo";
