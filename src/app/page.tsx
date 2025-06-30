@@ -10,7 +10,7 @@ export default function Home() {
       {/* Hero Section: vertically centered */}
       <div className="flex scale-120  flex-col items-center justify-center min-h-screen px-4 text-center">
         <div className="flex items-center justify-center mb-10 text-6xl font-semibold space-x-2">
-          <Image src={icon} alt="Sol" width={64} height={64} />
+          <Image src="/icon.png" alt="Sol" width={86} height={86} />
           <h1>Sol</h1>
         </div>
 

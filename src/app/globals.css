@@ -139,7 +139,7 @@
 
 @keyframes rainbowSweep {
   0% {
-    background-image: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);
+    background-image: linear-gradient(90deg, red, orange, #d24e01, #e27602, #ec9006, #f5c77e, #f1b04c);
     background-size: 300%;
     background-position: -100%;
     color: transparent;
