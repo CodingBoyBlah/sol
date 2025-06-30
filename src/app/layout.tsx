@@ -24,7 +24,7 @@ export default function RootLayout({
       <body 
         className={`${inter.variable} antialiased`}
       >
-        <AuroraBackground className="w-screen h-full">
+        <AuroraBackground className="w-screen h-full overflow-hidden">
           {children}
         </AuroraBackground>
       </body>

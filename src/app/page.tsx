@@ -23,7 +23,7 @@ export default function Home() {
       </div>
 
       {/* Video Section: scrolls below ok */}
-      <div className="w-full  scale-150 max-w-4xl mb-40 px-4 rounded-xl overflow-hidden">
+      <div className="w-full  scale-130 max-w-4xl mb-40 px-4 rounded-xl overflow-hidden">
         <video
           autoPlay
           muted
